@@ -29,6 +29,7 @@ YOUTUBE_CHANNEL_ID_6 = "VEVO" 	       				# VEVO
 YOUTUBE_CHANNEL_ID_7 = "ArkivaShqip" 	                        # ArkivaShqip
 YOUTUBE_CHANNEL_ID_8 = "jazznbluesexperience" 	                # Jazz and Blues
 YOUTUBE_CHANNEL_ID_9 = "UC-TisQC3PTaqdFV6FGc-pQg" 	        # doku deutch
+YOUTUBE_CHANNEL_ID_11 = "UCk5x1qwIX-CejQRfSAE3h8w" 	        # n'Kosove  Show
 
 # Entry point
 def run():
@@ -78,6 +79,14 @@ def main_list(params):
         title="DigitAlb",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_10+"/",
         thumbnail="https://yt3.ggpht.com/a-/AAuE7mAT6ceLGjmMnwBHLTEVif9ycNV5wLl6C1dYgQ=s288-mo-c-c0xffffffff-rj-k-no",
+		fanart="",
+        folder=True )
+
+    plugintools.add_item(
+        #action="",
+        title="n'Kosove Show",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_11+"/",
+        thumbnail="https://yt3.ggpht.com/a/AGF-l78rsykupQ1NP12TioS1cAcLbMdldzPWN5XJ0Q=s288-mo-c-c0xffffffff-rj-k-no",
 		fanart="",
         folder=True )
 
