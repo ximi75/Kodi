@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <addon id="repository.xiMix" name="xiMix" version="1.0" provider-name="xiMix">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="xiMix Addon Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/ximi75/Kodi/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ximi75/Kodi/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/ximi75/Kodi/master/zips/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Official Repo For Jen Dependencies</summary>
+            <description>Jen Brings The Dawn Of A New Day in Kodi .. You Now Have The Power To Make Your Add-On</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
